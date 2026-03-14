@@ -1,0 +1,22 @@
+train reservation system 
+user name :- darshilpatel496_db_user
+password :- 5dS17MbF9PEAzM4Y
+mongodb+srv://darshilpatel496_db_user:ZD2d7u8Gb8ZcWeOB@cluster0.i7qqfuu.mongodb.net/
+darshilpatel496_db_user:Darshildhaduk123
+
+
+mongodb+srv://darshilpatel496_db_user:darshilpatel496_db_user@cluster0.i7qqfuu.mongodb.net/
+
+
+error solve pending :
+    CastError: Cast to Number failed for value "gj290904" (type string) at path "trainNumber" for model "Train"
+    at SchemaNumber.cast (E:\8_sem_all\Project\train-reservation-system\backend\node_modules\mongoose\lib\schema\number.js:413:11)
+    at SchemaType.applySetters (E:\8_sem_all\Project\train-reservation-system\backend\node_modules\mongoose\lib\schemaType.js:1280:12)
+    at SchemaNumber.castForQuery (E:\8_sem_all\Project\train-reservation-system\backend\node_modules\mongoose\lib\schema\number.js:482:16)
+    at cast (E:\8_sem_all\Project\train-reservation-system\backend\node_modules\mongoose\lib\cast.js:386:32)
+    at Query.cast (E:\8_sem_all\Project\train-reservation-system\backend\node_modules\mongoose\lib\query.js:5025:12)
+    at Query._castConditions (E:\8_sem_all\Project\train-reservation-system\backend\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (E:\8_sem_all\Project\train-reservation-system\backend\node_modules\mongoose\lib\query.js:2704:8)
+    at model.Query.exec (E:\8_sem_all\Project\train-reservation-system\backend\node_modules\mongoose\lib\query.js:4637:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async bookTicket (file:///E:/8_sem_all/Project/train-reservation-system/backend/src/controllers/bookingController.js:20:17)
