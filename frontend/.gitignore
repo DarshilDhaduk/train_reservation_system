@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/train reservation system.txt
 # testing
 /coverage
 
